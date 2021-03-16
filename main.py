@@ -1,9 +1,10 @@
 # -*- coding:utf-8 -*-
 # Author: Kvar_ispw17
 import hanlp
+import json
 
-if __name__ == '__main__':
 
+def processing():
     # input file opening
     in_file = open('input.txt', 'r')
     input_str = str(in_file.read())
@@ -21,3 +22,16 @@ if __name__ == '__main__':
     # file closing
     in_file.close()
     out_file.close()
+
+
+if __name__ == '__main__':
+
+    flag = 0
+    if flag:
+        processing()
+
+    json_file = open('output.json')
+    data = json.load(json_file)
+    for p in data['tok']:
+        for q in p:
+            print(q)
