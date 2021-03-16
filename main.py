@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+# Author: Kvar_ispw17
 import hanlp
 
 if __name__ == '__main__':
