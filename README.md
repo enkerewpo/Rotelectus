@@ -1,2 +1,2 @@
 # Rotelectus
-Intelligent interactive system
+Intelligent chatting system.
