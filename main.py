@@ -38,3 +38,4 @@ if __name__ == '__main__':
                     and (data['pos'][0][cur] == 'NOUN' or data['pos'][0][cur] == 'PROPN'):
                 print(data['tok'][0][to] + '->' + data['tok'][0][cur])
             cur += 1
+    json_file.close()
