@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Author: Kvar_ispw17
+
 import hanlp
 import json
 
