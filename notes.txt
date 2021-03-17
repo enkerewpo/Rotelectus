@@ -1,0 +1,10 @@
+tok 分词 Tokenization. Each element is a token. 
+pos 词性标注 Part-of-Speech Tagging. Each element is a tag. 
+lem 词干提取 Lemmatization. Each element is a lemma. 
+fea 词法语法特征 Features of Universal Dependencies. Each element is a feature.
+ner 命名实体识别 Named Entity Recognition. Each element is a tuple of (entity, type, begin, end), where ends are exclusive offsets. 
+dep 依存句法分析 Dependency Parsing. Each element is a tuple of (head, relation) where head starts with index 0 (which is ROOT). 
+con 短语成分分析 Constituency Parsing. Each list is a bracketed constituent. 
+srl 语义角色标注 Semantic Role Labeling. Similar to ner, each element is a tuple of (arg/pred, label, begin, end), where the predicate is labeled as PRED. 
+sdp 语义依存分析 Semantic Dependency Parsing. Similar to dep, however each token can have any number (including zero) of heads and corresponding relations. 
+amr 抽象意义表示 Abstract Meaning Representation. Each AMR graph is represented as list of logical triples. See AMR guidelines. 
