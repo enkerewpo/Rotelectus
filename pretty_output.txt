@@ -1,0 +1,7 @@
+Dep Tree        Tok     Relation        Lem     PoS     Tok     NER Typ Tok     SRL PA1         Tok     PoS      3       4       5     6 
+─────────       ───     ────────        ───     ─────   ───     ─────── ───     ────────        ───     ─────────────────────────────────
+   ┌─►┌──       小明    nmod            小明    PROPN   小明            小明    ◄─┐             小明    PROPN───►NP ───┐                 
+   │  └─►       的      case:dec        的      PART    的              的        ├►ARG0        的      PART ──────────┴►DNP ──┐         
+┌─►└─────       家乡    nsubj           家乡    NOUN    家乡            家乡    ◄─┘             家乡    NOUN ───────────►NP ───┴►NP──┐   
+│     ┌─►       是      cop             是      AUX     是              是      ╟──►PRED        是      AUX ───────────┐             ├►IP
+└─────┴──       石家庄  root            石家庄  PROPN   石家庄  ───►LOC 石家庄  ───►ARG1        石家庄  PROPN───►NP ───┴────────►VP──┘  

@@ -8,3 +8,7 @@ con 短语成分分析 Constituency Parsing. Each list is a bracketed constituen
 srl 语义角色标注 Semantic Role Labeling. Similar to ner, each element is a tuple of (arg/pred, label, begin, end), where the predicate is labeled as PRED. 
 sdp 语义依存分析 Semantic Dependency Parsing. Similar to dep, however each token can have any number (including zero) of heads and corresponding relations. 
 amr 抽象意义表示 Abstract Meaning Representation. Each AMR graph is represented as list of logical triples. See AMR guidelines. 
+
+https://zhuanlan.zhihu.com/p/35789254
+https://www.jiqizhixin.com/articles/2015-09-15
+https://zhuanlan.zhihu.com/p/51186364
