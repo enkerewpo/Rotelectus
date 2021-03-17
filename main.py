@@ -3,8 +3,9 @@
 import hanlp
 import json
 
-
 def build():
+    """ Build the pos network from pretrained sets
+    """
     in_file = open('input.txt', 'r')
     input_str = str(in_file.read())
 
