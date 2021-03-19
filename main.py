@@ -31,20 +31,26 @@ if __name__ == '__main__':
     json_file = open('output.json')
     data = json.load(json_file)
     cur = 0
+
     print('\nRotelectus v0.0.1 prototype\n')
     print('-------------------------------------------------------')
+    
     print('[LOG] Start sentence processing ...')
     equ = -1
+    
     print('[LOG] Printing original sentence: ')
     print(input_str, '\n')
+    
     print('[LOG] Printing tokens: ')
     toks = data['tok'][0]
     print(toks, '\n')
+    
     for i in range(len(toks)):
         tok_c = toks[i]
         if tok_c == '是':
             equ = i
             break
+    
     if equ != -1:
         print('[LOG::EQU-REL] Got relation keyword \'是\' at position:', equ)
         equt = data['dep'][0][equ]
